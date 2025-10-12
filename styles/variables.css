@@ -5,4 +5,8 @@
 
 :root {
   --main-font-family: 'IBM Plex mono'; 
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --card-text-color: #f1b2ce;
+
 }
