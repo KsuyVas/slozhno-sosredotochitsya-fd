@@ -139,7 +139,6 @@ text-shadow: 4px 4px 0 var(--accent-color);
 
 .header_text {
 /* margin-block-end: 70px;*/
-height: 117px; /* Возможно нужно убрать*/
 position: relative;
   top: 10px;
   height: fit-content;
@@ -188,17 +187,12 @@ gap: 20px;
 
 
 .tittle-section {
-  font-family: inherit;
+font-family: inherit;
 font-weight: 700;
 font-size: 18px;
 line-height: 130%;
 color: var(--accent-color);
 /* padding-block-end: 20px; Возможно нужно убрать*/
-}
-
-
-.content__card-title {
-
 }
 
 .content__card-title-advice {
@@ -416,7 +410,6 @@ grid-column-start: 1;
   }
 
   .header_text {
- 
     max-width: 491px;
   }
 
@@ -429,7 +422,6 @@ grid-column-start: 1;
   .content__section-reasons {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2,auto);
-
 }
 
 }

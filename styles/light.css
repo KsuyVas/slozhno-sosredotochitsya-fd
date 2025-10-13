@@ -15,15 +15,14 @@
   --background-color: #FFF1F7;
   --card-text-color: #353430;
   --background-image: url(../images/cover-image-light.png)
-
 }
-
 
 :root.theme-light .decor {
    display: none;
 }
 
 @media (prefers-color-scheme: light) {
+
   :root {
     /* Дублируем переменные светлой темы */
   --accent-color: #FF8DCB;
