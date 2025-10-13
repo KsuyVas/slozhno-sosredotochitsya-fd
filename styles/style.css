@@ -11,7 +11,6 @@ body {
 .page {
   position: relative;
   margin: 0px auto;
-  /*padding: 10px;*/
   font-family: var(--main-font-family), sans-serif;
   background-color: var(--background-color);
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
@@ -60,7 +59,7 @@ body {
 
 .decor {
   position: absolute;
-  top: 10px;
+  top: 0px;
   right: 10px;
   height: fit-content;
   margin-inline-end: 30px;
@@ -91,9 +90,6 @@ body {
   top: 65px;
   justify-self: end;
   align-self: start;
-
-  /*margin-block-start: 30px;
-   margin-inline-start: 295px;*/
 }
 
 .header__theme-menu-list {
@@ -135,8 +131,7 @@ body {
 .header__title {
   position: relative;
   top: 43px;
-  /*margin-block-start: 65px;
-margin-block-end: 55px; */
+
 }
 
 .main-title-decor {
@@ -149,7 +144,7 @@ margin-block-end: 55px; */
 }
 
 .header_text {
-  /* margin-block-end: 70px;*/
+
   position: relative;
   top: 10px;
   height: fit-content;
@@ -201,7 +196,7 @@ margin-block-end: 55px; */
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
-  /* padding-block-end: 20px; Возможно нужно убрать*/
+
 }
 
 .content__card-title-advice {
@@ -216,7 +211,7 @@ margin-block-end: 55px; */
   font-weight: 400;
   font-size: 18px;
   line-height: 130%;
-  /* padding-block-end: 10px;*/
+
 }
 
 .card-text-link {
@@ -251,7 +246,7 @@ margin-block-end: 55px; */
   min-height: fit-content;
   margin-inline-start: 10px;
   margin-inline-end: 10px;
-  margin-block-end: 10px;
+  
 }
 
 .footer__title {
@@ -262,9 +257,6 @@ margin-block-end: 55px; */
 }
 
 @media (width >= 768px) {
-  .page {
-   /* padding: 20px; */
-  }
 
   .header {
     margin-block-start: 20px;
@@ -281,7 +273,7 @@ margin-block-end: 55px; */
 
 
   .decor {
-    top: 20px;
+    top: 0px;
     right: 20px;
   }
 
@@ -407,7 +399,7 @@ margin-block-end: 55px; */
   }
 }
 
-@media (width >= 1024px) and (height >= 768px) {
+@media (width >= 1024px) {
   
   
   
@@ -416,7 +408,7 @@ margin-block-end: 55px; */
   }
 
   .header__title {
-    top: 110px;
+    top: 90px;
   }
 
 
@@ -425,18 +417,18 @@ margin-block-end: 55px; */
   }
 
   .header__theme-menu {
-    top: 20px;
+    top: 0px;
     justify-self: center;
   }
 
   .header_text {
     max-width: 491px;
-    top: 45px;
+    top: 25px;
   }
 
   
   .content {
-    margin-block-start: 60px;
+    margin-block-start: 41px;
   }
   
   .content__section-reasons .tittle-section {
@@ -449,13 +441,14 @@ margin-block-end: 55px; */
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
   }
+
+
+.header.decorated-zone::after {
+    bottom: 40px;
+
+}
+
 }
 
 
 
-  /*
-    
-  .decorated-zone::before {
-    top: 20px;
-  }
-  }*/
