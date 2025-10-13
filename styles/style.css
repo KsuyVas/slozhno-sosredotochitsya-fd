@@ -4,6 +4,10 @@
   --background-image: url(../images/cover-image-dark.png);
 }
 
+body {
+  margin: 0;
+}
+
 .page {
   position: relative;
   margin: 0px auto;
