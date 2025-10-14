@@ -1,8 +1,8 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
-:root.theme-auto {
+/*:root.theme-auto {
   --background-image: url(../images/cover-image-dark.png);
-}
+} */
 
 body {
   margin: 0;
@@ -62,7 +62,7 @@ body {
   top: 0px;
   right: 10px;
   height: fit-content;
-  margin-inline-end: 30px;
+  margin-inline-end: 20px;
   color: var(--accent-color);
   font-family: inherit;
   font-weight: 400;
@@ -113,11 +113,11 @@ body {
 }
 
 .header__theme-menu-button_active {
-  border: 2px solid currentColor;
+  border: 1px solid currentColor;
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid currentColor;
+  outline: 1px solid var(--button-outline-color);
 }
 
 .header__theme-menu-button:focus {
@@ -220,7 +220,7 @@ body {
 }
 
 .card-text-link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--card-text-color);
 }
 
 .card-text-link:focus {
@@ -243,7 +243,7 @@ body {
   position: relative;
   display: grid;
   height: 100vh;
-  min-height: fit-content;
+  min-height: 668px;
   margin-inline-start: 10px;
   margin-inline-end: 10px;
   
@@ -264,8 +264,6 @@ body {
     margin-block-start: 20px;
   }
     
-
-
   .header.decorated-zone::after {
     bottom: 46px;
 
@@ -273,7 +271,7 @@ body {
 
   .decor {
     top: 0px;
-    right: 20px;
+    right: 10px;
   }
 
   .header__theme-menu {

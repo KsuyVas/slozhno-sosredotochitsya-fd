@@ -4,10 +4,6 @@
   переключая тему
 */
 
-body {
-  margin: 0;
-}
-
 :root.theme-light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -19,6 +15,7 @@ body {
   --background-color: #FFF1F7;
   --card-text-color: #353430;
   --background-image: url(../images/cover-image-light.png);
+  --button-outline-color: rgb(50, 49, 45, 0.4);  
 }
 
 :root.theme-light .decor {
@@ -34,6 +31,7 @@ body {
   --background-color: #FFF1F7;
   --card-text-color: #353430;
   --background-image: url(../images/cover-image-light.png);
+  --button-outline-color: rgb(50, 49, 45, 0.4);
   }
 }
 
