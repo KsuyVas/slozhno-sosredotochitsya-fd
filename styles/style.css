@@ -273,10 +273,10 @@ body {
     margin-block-start: 20px;
   }
     
-  .header.decorated-zone::after {
-    bottom: 46px;
-
+ .header.decorated-zone::after {
+    bottom: 40px;
   }
+
 
   .decor {
     top: 0px;
@@ -298,11 +298,7 @@ body {
     max-width: 364px;
   }
 
-  .header.decorated-zone::after {
-    bottom: 40px;
-
-  }
-
+ 
   .content {
     margin-inline-start: 20px;
     margin-inline-end: 20px;
@@ -445,7 +441,8 @@ body {
   }
   
   .content__section-reasons {
-grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  margin-block-start: 70px;
 }
 
 
@@ -453,11 +450,6 @@ grid-template-columns: repeat(3, 1fr);
     grid-column: 1/4;
     grid-row: 1/2;
     max-width: 315px;
-  }
-
-
-  .content__section-reasons {
-    margin-block-start: 70px;
   }
 
    .content__section-advices {
