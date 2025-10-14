@@ -15,7 +15,7 @@
   --background-color: #FFF1F7;
   --card-text-color: #353430;
   --background-image: url(../images/cover-image-light.png);
-  --button-outline-color: rgb(50, 49, 45, 0.4);  
+  --button-outline-color: rgb(50, 49, 45, 0.4);
 }
 
 :root.theme-light .decor {

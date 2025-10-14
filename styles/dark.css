@@ -10,24 +10,21 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
-   --accent-color: #ff0070;
-  --title-color: #db00ff;
-  --card-text-color: #f1b2ce;
-  --background-color: #000028;
-  --background-image: url(../images/cover-image-dark.png);
-  --button-outline-color: rgb(255, 0, 112, 0.4);  
-}
-
-
-@media (prefers-color-scheme: dark) {
-
-  :root {
-   
   --accent-color: #ff0070;
   --title-color: #db00ff;
   --card-text-color: #f1b2ce;
   --background-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
-  --button-outline-color: rgb(255, 0, 112, 0.4); 
-  }
+  --button-outline-color: rgb(255, 0, 112, 0.4);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root { 
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --card-text-color: #f1b2ce;
+  --background-color: #000028;
+  --background-image: url(../images/cover-image-dark.png);
+  --button-outline-color: rgb(255, 0, 112, 0.4);
+}
 }
