@@ -18,8 +18,8 @@
 }
 
 @media (prefers-color-scheme: dark) {
-:root { 
---accent-color: #ff0070;
+  :root {
+    --accent-color: #ff0070;
 --title-color: #db00ff;
 --card-text-color: #f1b2ce;
 --background-color: #000028;
