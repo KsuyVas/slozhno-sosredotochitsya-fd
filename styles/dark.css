@@ -17,6 +17,10 @@
 --button-outline-color: rgb(255, 0, 112, 0.4);
 }
 
+:root.theme-dark .decor {
+  display: block;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --accent-color: #ff0070;
@@ -26,4 +30,8 @@
 --background-image: url(../images/cover-image-dark.png);
 --button-outline-color: rgb(255, 0, 112, 0.4);
 }
+
+.decor {
+    display: block;
+  }
 }
