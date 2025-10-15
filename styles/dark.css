@@ -21,6 +21,14 @@
   display: block;
 }
 
+:root.theme-dark .header__theme-menu-button {
+    color: var(--accent-color);
+  }  
+
+:root.theme-dark .tittle-section {
+  color: var(--accent-color);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --accent-color: #ff0070;
